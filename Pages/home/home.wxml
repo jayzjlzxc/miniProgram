@@ -1,0 +1,7 @@
+<!--Pages/home/home.wxml-->
+<view>{{name}}</view>
+<view>{{age}}</view>
+<button size="mini" bindtap="clickUp">++</button>
+<button size="mini" bindtap="clickLow">--</button>
+<view>当前时间是{{time}}</view>
+<view wx:for="{{pc}}">{{item.name}}</view>
